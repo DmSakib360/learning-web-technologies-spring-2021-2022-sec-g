@@ -1,0 +1,21 @@
+<admission>
+	
+	<candidate> 
+		<slNo>23</slNo>
+		<name>John Carter</name>
+		<adDate>23/12/2015</adDate>
+	</cadidate>
+
+	<candidate> 
+		<slNo>29</slNo>
+		<name>Bob Marshal</name>
+		<adDate>17/05/1999</adDate>
+	</cadidate>
+
+	<candidate> 
+		<slNo>35</slNo>
+		<name>Clark Kent</name>
+		<adDate>17/06/2005</adDate>
+	</cadidate>
+
+</admission>
