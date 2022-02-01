@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Person Profile form</title>
+	<style>
+		table
+		{
+			width: 350px;
+			height: 400px;
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		td,th
+		{
+			border: 1px solid black;
+		}
+	</style>		
+</head>
+<body>
+	<form>
+		<table>
+			<thead>
+				<tr>
+					<th align="center" colspan="3"><h1>PERSON PROFILE</h1></th>
+				</tr>
+			</thead>
+
+
+			<tbody>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" name="Name"></td>
+				</tr>
+
+				<tr>
+					<td>Email</td>
+					<td><input type="Email" name="Email"></td>
+				</tr>
+
+				<tr>
+					<td>Gender</td>
+					<td><input type="radio" name="Gender">Male
+						<input type="radio" name="Gender">Female
+						<input type="radio" name="Gender">Other
+					</td>
+				</tr>
+
+				<tr>
+					<td>Date of Birth</td>
+					<td><input type="date" name="DOB"></td>
+				</tr>
+
+				<tr>
+					<td>Blood Group</td>
+					<td>
+						<select>
+							<option>A+</option>
+							<option>A-</option>
+							<option>B+</option>
+							<option>B-</option>
+							<option>O+</option>
+							<option>O-</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Degree</td>
+					<td>
+						<input type="checkbox" name="Degree">SSC
+						<input type="checkbox" name="Degree">HSC
+						<input type="checkbox" name="Degree">BSc.
+						<input type="checkbox" name="Degree">MSc.
+					</td>
+				</tr>
+
+				<tr>
+					<td>Photo</td>
+					<td><input type="file" name="Photo"></td>
+				</tr>
+
+				<tr>
+					<td rowspan="" colspan="3">  </td>
+				</tr>
+
+
+				<tr>
+					
+					<td align="right" colspan="3">
+						<input type="Submit" value="Submit">
+						<input type="Reset" value="Reset">
+					</td>
+				</tr>
+
+			</tbody>
+			
+		</table>
+
+
+
+
+	</form>
+
+</body>
+</html>
